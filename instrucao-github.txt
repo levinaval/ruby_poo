@@ -1,0 +1,8 @@
+fluxo do git para envio de código
+git status
+git add .
+git commit -m "aqui vai uma mensagem descritiva"
+git push origin master
+
+fluxo do git para puxar o código do repositório
+git pull origin master
