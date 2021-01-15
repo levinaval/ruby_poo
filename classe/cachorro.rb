@@ -1,10 +1,30 @@
-class Cachorro
-    attr_accessor :nome, :cor, :raca
+class Animal
+     attr_reader :nome
+
+  def initialize(nome)
+     @nome = nome
+  end
+
+  def comunicar
+        puts "sou sua mãe!"
+  end
 end
 
-cachorro1 = Cachorro.new
-cachorro1.nome = "marlei"
-cachorro1.cor = "preto"
-cachorro1.raca = "pit bull"
-  
-puts "nome: #{cachorro1.nome}, cor: #{cachorro1.cor}, raça: #{cachorro1.raca}"
+class Cachorro < Animal
+    attr_reader :raca
+
+  def initialize(nome, raca)
+      super(nome)
+      @raca = raca
+  end
+
+  def comunicar
+      puts "au, au, au = sou seu filho!"
+  end
+end
+
+marlei = Cachorro.new("marlei", "pit bull")
+
+puts marlei.nome
+puts marlei.raca
+marlei.comunicar

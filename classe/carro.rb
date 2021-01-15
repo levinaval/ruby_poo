@@ -1,18 +1,26 @@
 class Carro
-    attr_reader :modelo, :marca, :cor, :ano
+    attr_reader :modelo
 
-    def initialize(modelo, marca, cor, ano)
+    def initialize(modelo)
         @modelo = modelo
-        @marca = marca
-        @cor = cor
-        @ano = ano
+    end
+
+    def ligar_carro
+        puts "o carro esta ligado!"
     end
 end
 
-carro1 = Carro.new("celta", "chevrolet", "preto", 2002)
+class Veiculo < Carro
+    attr_reader :marca
 
-puts carro1.modelo
-puts carro1.marca
-puts carro1.cor
-puts carro1.ano
-    
+    def initialize(modelo, marca)
+    super(Carro)
+    @marca = marca
+    end
+end
+
+celta = Veiculo.new("celta", "chevrolet")
+
+puts celta.modelo
+puts celta.marca
+celta.ligar_carro

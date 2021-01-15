@@ -1,2 +1,29 @@
-.idea/
+ class Cachorro
+    attr_reader :nome
+    
+    def initialize(nome)
+        @nome = nome
+    end
+    
+    def comunicar
+        puts "sou a mãe!"
+    end
+end
 
+class Segundo_nome < Cachorro
+    attr_reader :sobre_nome
+    
+    def initialize(nome, sobre_nome)
+        super(nome)
+        @nome = nome
+    end
+    
+    def comunicar
+        puts "au, au, au"
+    end
+end
+
+marlei = Segundo_nome.new("marlei", "toto")
+
+puts "nome: #{marlei.nome}, sobre nome: #{marlei.sobre_nome}" #{marlei.nome}, sobre nome: #{marlei.sobre_nome}"
+ 

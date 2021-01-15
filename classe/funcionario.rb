@@ -1,8 +1,8 @@
 class Funcionario
   attr_accessor :nome, :funçao, :tempo
 
-  def calcular_idade(ano_de_nascido)
-    idade = 2020 - ano_de_nascido
+  def calcular_comiçao(passageiro)
+    idade = 0.08 * passageiro
   end
 end
   
@@ -13,4 +13,4 @@ funcionario1.funçao = "motorista"
 funcionario1.tempo = "um ano de serviço"
 
 puts "nome: #{funcionario1.nome}, funçao: #{funcionario1.funçao}, tempo: #{funcionario1.tempo}"
-puts funcionario1.calcular_idade(1985)
+puts funcionario1.calcular_comiçao(200)

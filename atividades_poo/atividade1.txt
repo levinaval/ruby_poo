@@ -1,4 +1,0 @@
-# Atividade
-# Crie uma classe e instancie um objeto animal do tipo cachorro com nome, cor e raça
-# Crie uma classe e instancie um objeto veículo do tipo carro com modelo, marca, cor e ano
-# Crie uma classe e instancie um objeto pessoa do tipo funcionário com nome, função e tempo de serviço
