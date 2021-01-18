@@ -6,20 +6,20 @@ class Animal
   end
 
   def comunicar
-        puts "sou sua mãe!"
+    puts "classe mãe!"
   end
 end
 
 class Cachorro < Animal
-    attr_reader :raca
+  attr_reader :raca
 
   def initialize(nome, raca)
-      super(nome)
-      @raca = raca
+    super(nome)
+    @raca = raca
   end
 
   def comunicar
-      puts "au, au, au = sou seu filho!"
+    puts "au, au, au = sou seu filho!"
   end
 end
 

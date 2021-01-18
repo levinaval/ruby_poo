@@ -1,25 +1,25 @@
-class Carro
+class Veiculo
     attr_reader :modelo
 
     def initialize(modelo)
-        @modelo = modelo
+      @modelo = modelo
     end
 
     def ligar_carro
-        puts "o carro esta ligado!"
+      puts "o carro esta ligado!"
     end
 end
 
-class Veiculo < Carro
+class Carro < Veiculo
     attr_reader :marca
 
     def initialize(modelo, marca)
-    super(Carro)
+    super(Veiculo)
     @marca = marca
     end
 end
 
-celta = Veiculo.new("celta", "chevrolet")
+celta = Carro.new("celta", "chevrolet")
 
 puts celta.modelo
 puts celta.marca
