@@ -1,15 +1,4 @@
-class Pessoa
-    attr_reader :nome, :idade
-
-    def initialize(nome, idade)
-        @nome = nome
-        @idade = idade
-    end
-
-    def apresentar
-        puts "olá! eu sou a classe pessoa."
-    end
-end
+require_relative 'pessoa'
 
 class Professor < Pessoa
     attr_reader :disciplina
