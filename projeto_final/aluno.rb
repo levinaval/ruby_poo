@@ -16,4 +16,3 @@ end
 a1 = Aluno.new("levi", 35, 001)
 
 a1.apresentar
-

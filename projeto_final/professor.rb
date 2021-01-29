@@ -1,11 +1,4 @@
-class Pessoa
-    attr_accessor :nome, :idade
-
-    def initialize(nome, idade)
-        @nome = nome
-        @idade = idade
-    end
-end
+require_relative "pessoa"
 
 class Porfessor < Pessoa
     attr_accessor :disciplina
