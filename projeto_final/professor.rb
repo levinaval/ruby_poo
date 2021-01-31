@@ -1,6 +1,6 @@
 require_relative "pessoa"
 
-class Porfessor < Pessoa
+class Professor < Pessoa
     attr_accessor :disciplina
 
     def initialize(nome, idade, disciplina)
@@ -13,6 +13,6 @@ class Porfessor < Pessoa
     end
 end
 
-p1 = Porfessor.new("diego", 35, "progamação")
+p1 = Professor.new("diego", 35, "progamação")
 
 p1.apresentar
