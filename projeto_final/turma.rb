@@ -1,4 +1,4 @@
-class Turma
+class Turma < Pessoa
     attr_accessor :nome_da_turma
     
     def initialize(nome_da_turma)
@@ -11,6 +11,11 @@ class Turma
     end
 
     def turma1
-    turma1[]
+        puts "incira os nomes dos alunos."
+        lista[]
+
+        lista.push ("joão, levi") 
+        lista << gets.chomp
+         puts lista [1..9] -
     end
 end
