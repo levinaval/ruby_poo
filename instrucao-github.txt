@@ -10,3 +10,11 @@ git push --force origin master
 
 Fluxo do git para puxar o código do repositório
 git pull origin master
+
+INSTALAÇÃO DO FFAKER
+https://github.com/ffaker/ffaker
+
+gem install ffaker
+
+E PARA FUNCIONAR NO ARQUIVO, PRECISA COLOCAR O CÓDIGO ABAIXO:
+require 'ffaker'
