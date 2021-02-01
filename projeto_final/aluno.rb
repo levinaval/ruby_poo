@@ -9,6 +9,6 @@ class Aluno < Pessoa
     end
 
     def apresentar
-        puts "sou o aluno #{nome}, tenho #{idade} e minha matrícola é #{matricula}"
+        puts "sou o aluno #{nome}, tenho #{idade} e minha matricula é #{matricula}"
     end
 end
