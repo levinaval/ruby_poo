@@ -8,5 +8,6 @@ class Turma
     end
 
     def apresentar
+        puts "sou a truma #{nome_da_turma}, tenho como professor responsavel o #{professor} e temos os alunos #{alunos}."
     end
 end
