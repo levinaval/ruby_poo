@@ -8,7 +8,8 @@ alunos = []
   alunos << Aluno.new(FFaker::Name.name, rand(8..16), rand(10..100))
 end
 
-professor = Professor.new(FFaker::Name.name, rand(30..40), "progamação")
-end
+professor = Professor.new(FFaker::Name.name, rand(30..40), "Progamação")
 
-turma = Turma.new(nome_da_turma, professor, alunos)
+turma = Turma.new("Turma 1", professor, alunos)
+
+turma.apresentar

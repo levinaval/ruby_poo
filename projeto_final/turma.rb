@@ -8,6 +8,15 @@ class Turma
     end
 
     def apresentar
-        puts "sou a truma #{nome_da_turma}, tenho como professor responsavel o #{professor} e temos os alunos #{alunos}."
+        puts "#{self.nome_da_turma}\nProfessor #{professor.nome} - Disciplina #{professor.disciplina}"
+        listar_alunos(alunos)
+    end
+
+    private
+
+    def listar_alunos(alunos)
+        alunos.each do |aluno|
+            puts "#{aluno.nome} - Matrícula #{aluno.matricula}"
+        end
     end
 end
