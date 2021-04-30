@@ -4,8 +4,10 @@ class Professor < Pessoa
     attr_accessor :disciplina
 
     def initialize(nome, idade, disciplina)
-        super(nome, idade)
-        @disciplina = disciplina        
+        super(nome)
+        @
+        @disciplina = disciplina 
+               
     end
 
     def apresentar
