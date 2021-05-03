@@ -31,4 +31,4 @@ para iniciantes
 
   ## Reconhecimentos
 
-Projeto parte da mentoria do canal [Noob Code](https://www.youtube.com/channel/UCE7utsNu7u7HqoZDT2OdUiA), por [Diego Araujo](https://github.com/diegoshakan).
+Projeto no youtube do canal [Noob Code](https://www.youtube.com/channel/UCE7utsNu7u7HqoZDT2OdUiA), por [Diego Araujo](https://github.com/diegoshakan).
