@@ -4,6 +4,12 @@ projeto de estudo e desenvolvimento no ruby
 para iniciantes
 
 ## POO
+
+* Programação Orientada a Objetos
+  * é um paradigma de progamação(estilo) que usa tipos de dados personalisados.
+  Em vez de operar apenas com tipos primitivos, podemos constrruir novos tipos de daos,         conforme nossa necessidade. 
+  Esses novos tipos de dados, chamados de CLASSES, podem conter estruturas semelhantes aos     MÉTODOS, e veriáveis internas, os ATRIBUTOS.
+  
 ## Algoritmos
 
 * Classe
