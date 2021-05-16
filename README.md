@@ -1,8 +1,9 @@
-## ruby_poo 
-projeto de estudo e desenvolvimento no ruby POO
+## ruby 
+projeto de estudo e desenvolvimento no ruby
 
 para iniciantes
 
+## POO
 ## Algoritmos
 
 * Classe
