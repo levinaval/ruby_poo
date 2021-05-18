@@ -10,7 +10,7 @@ class Aluno < Pessoa
     end
 
     def apresentar
-        puts "Olá! Eu sou Aluno #{nome} da série #{serie} com a seguinte matrícula #{matricula}."
+        puts "Olá! Eu sou Aluno #{nome} tenho #{idade} anos e estou no #{serie} com a seguinte matrícula #{matricula}."
     end
 end
 
