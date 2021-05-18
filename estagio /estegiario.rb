@@ -1,4 +1,6 @@
-class Estagiario
+require_relative 'empresa'
+
+class Estagiario < Empresa
   attr_accessor :nome , :esperiencia
 
   def initialize(nome, esperiencia)
