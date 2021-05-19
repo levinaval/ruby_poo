@@ -6,9 +6,9 @@ class Empresa
   end
 
   def comunicar
-    puts "sou a #{nome_da_empresa} e tenho no quadro de funcionarios os melhores desenvolvedores!"
+    puts "sou a #{nome_da_empresa} e tenho no quadro de funcionários os melhores desenvolvedores!"
   end
 end
 
 e1 = Empresa.new("Certus Software")
-e1.comunicar
+#e1.comunicar
