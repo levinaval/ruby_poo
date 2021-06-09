@@ -10,5 +10,5 @@ class Empresa
   end
 end
 
-e1 = Empresa.new("Certus Software")
+#e1 = Empresa.new("Certus Software")
 #e1.comunicar
