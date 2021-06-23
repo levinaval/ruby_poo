@@ -2,20 +2,6 @@
 #Após exibir a soma, o programa deve mostrar também os números que o usuário digitou, um por linha.
 
 lista = []
-for i in 1..5
-  numero = gets.chomp.to_i
-  lista.push(numero)  
-end
-print lista
-
-resultado = 0
-for numero in lista
-  resultado = resultado + numero
-end
-puts resultado
-
-RESOLVIDA POR DIEGO
-lista = []
 resultado = 0
 
 for i in 1..5
