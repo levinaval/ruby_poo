@@ -14,3 +14,4 @@ while contador >= 0
   puts lista[contador]
   contador -= 1
 end
+  
