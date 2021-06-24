@@ -5,7 +5,7 @@ lista1 = [0..5]
 lista2 = [0..5]
 # count = inteiro
 
-puts "digite  número."
+puts "digite dez número."
 for i in 0..5
   numero = gets.chomp
   lista1 << lista2 * 5
