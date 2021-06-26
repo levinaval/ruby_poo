@@ -8,7 +8,7 @@ lista2 = []
 puts "digite dez número."
 for i in 0..3
   lista1 = gets.chomp
-  lista2 << (lista1) * 5
+  lista2 << lista1 * 5
 end
 
 puts "resultado:"
