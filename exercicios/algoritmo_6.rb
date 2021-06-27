@@ -7,3 +7,8 @@ def vogal_consoante(palavra)
   end
 end 
  
+puts "Informe um nome qualquer."
+palavra = gets.chomp
+palavra = palavra.capitalize
+
+palavra = vogal_consoante(palavra) 
