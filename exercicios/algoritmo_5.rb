@@ -3,18 +3,18 @@
 
 lista1 = []
 lista2 = []
-#count = integer
 
 puts "digite dez número."
 for i in 0..3
   lista1 = gets.chomp
-  lista2 << lista1 * 5
+  lista1 * 5
+  lista2 << lista1 
 end
 
 puts "resultado:"
 
 
-for i in 0..1
+for i in 1..1
   puts "#{lista1}, #{lista2}"
 end
 

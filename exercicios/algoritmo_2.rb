@@ -9,8 +9,8 @@ end
 print lista
 puts ""
 
-contador = lista.size - 1
+contador = lista.size #- 1
 while contador >= 0
-  puts lista[contador]
+  puts lista#[contador]
   contador -= 1
 end
