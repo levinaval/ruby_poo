@@ -18,4 +18,13 @@ def numero_maior(valor1, valor2)
   puts "#{valor1} é o maior!"
   elsif  valor2 > valor1
   puts "#{valor2} é o maior!"
-  
+else
+  puts "valores são iguais!"
+  end
+end
+
+valor1 = 3
+valor2 = 4
+
+
+numero_maior(valor1, valor2)
