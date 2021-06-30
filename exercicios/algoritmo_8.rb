@@ -1,8 +1,8 @@
 #Escreva um programa (algoritmo) que receba dois números e mostre qual é o maior deles.
 
-puts "insira o valor 1."
+puts "insira o Primeiro valor."
 valor1 = gets.chomp.to_i
-puts "insira o valor 2."
+puts "insira o Segundo valor."
 valor2 = gets.chomp.to_i
 if  valor1 > valor2
   puts "#{valor1} é o maior!"
