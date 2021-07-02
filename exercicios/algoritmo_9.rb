@@ -24,5 +24,11 @@ def valor_comparação(valor1, valor2, valor3)
 
   if  valor1 > valor2 and valor1 > valor3
     puts "#{valor1} é o maior!"
-    elsif  valor2 > valor1 and valor2 > valor3
-    puts "#{valor2} é o maior!"                 
+  elsif  valor2 > valor1 and valor2 > valor3
+    puts "#{valor2} é o maior!"  
+  elsif  valor3 > valor2 and valor3 > valor1
+    puts "#{valor3} é o maior!"
+  else
+    puts "valores são iquais!"
+  end
+end               
