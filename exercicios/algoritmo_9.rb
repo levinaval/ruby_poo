@@ -17,3 +17,5 @@ valor3 = gets.chomp.to_i
   else
     puts "valores são iquais!"
 end
+
+                  #ou
