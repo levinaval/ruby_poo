@@ -19,3 +19,10 @@ valor3 = gets.chomp.to_i
 end
 
                   #ou
+
+def valor_comparação(valor1, valor2, valor3)
+
+  if  valor1 > valor2 and valor1 > valor3
+    puts "#{valor1} é o maior!"
+    elsif  valor2 > valor1 and valor2 > valor3
+    puts "#{valor2} é o maior!"                 
