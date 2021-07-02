@@ -28,3 +28,7 @@ def numeros_pares(lista)
     end
   end
 end
+
+lista = [3, 6, 4, 9, 1]
+
+numeros_pares(lista)
