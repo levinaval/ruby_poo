@@ -31,4 +31,10 @@ def valor_comparação(valor1, valor2, valor3)
   else
     puts "valores são iquais!"
   end
-end               
+end  
+
+valor1 = 3
+valor2 = 4
+valor3 = 9
+
+valor_comparação(valor1, valor2, valor3)
