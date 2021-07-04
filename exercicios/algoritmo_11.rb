@@ -9,3 +9,9 @@ for i in 0..4
   lista.push(n)
 end
 puts "-----------"
+
+for i in lista
+  if i % 2 == 1 #ou if i % 2 != 0
+    puts i
+  end
+end
