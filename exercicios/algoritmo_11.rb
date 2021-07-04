@@ -1,0 +1,1 @@
+#Escreva um programa (algoritmo) que receba cinco números e imprima somente os ímpares.
