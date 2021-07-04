@@ -4,6 +4,8 @@
 
 lista = []
 
+puts "digite cinco números"
+
 for i in 0..4
   n = gets.chomp.to_i
   lista.push(n)
