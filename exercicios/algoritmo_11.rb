@@ -20,12 +20,14 @@
 
   # ou
 
-  def numeros_pares(lista)
-    for i in lista
-      if i % 2 != 0
-       puts i
-      end
+def numeros_pares(lista)
+  for i in lista
+    if i % 2 != 0
+     puts i
     end
-   end
+  end
+end
    
+lista = [3, 6, 4, 9, 1]
    
+numeros_pares(lista)
