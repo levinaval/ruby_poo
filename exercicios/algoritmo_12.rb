@@ -13,3 +13,7 @@ def area_quadrado(lado)
   lado * lado # lado**2
 end
 
+puts "insira o valor do lado."
+l = gets.chomp.to_f
+quadrado = area_quadrado(l)
+puts "A área do quadrado são: #{quadrado}m²!"
