@@ -8,3 +8,5 @@ puts "insira o segundo valor."
 l2 = gets.chomp.to_i
 retangulo = l1*l2
 puts "ao valor do retângulo é #{retangulo}m²!"
+
+# ou
