@@ -10,3 +10,7 @@ retangulo = l1*l2
 puts "ao valor do retângulo é #{retangulo}m²!"
 
 # ou
+
+def area_retangulo(lado, base)
+  lado * base
+end
