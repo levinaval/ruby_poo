@@ -14,3 +14,7 @@ puts "ao valor do retângulo é #{retangulo}m²!"
 def area_retangulo(lado, base)
   lado * base
 end
+
+puts "insira o primeiro valor."
+l = gets.chomp.to_i
+puts "insira o segundo valor."
