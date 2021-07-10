@@ -18,3 +18,6 @@ end
 puts "insira o primeiro valor."
 l = gets.chomp.to_i
 puts "insira o segundo valor."
+b = gets.chomp.to_i
+retangulo = area_retangulo(l, b)
+puts "ao valor do retângulo é #{retangulo}m²!"
