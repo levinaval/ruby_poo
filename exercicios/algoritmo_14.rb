@@ -9,3 +9,11 @@ nota1 = gets.chomp.to_f
 nota2 = gets.chomp.to_f
 nota3 = gets.chomp.to_f
 nota4 = gets.chomp.to_f
+soma = nota1 + nota2 + nota3 + nota4
+media = soma / 4
+puts "aluno: #{aluno} media: #{media}"
+if media >= 6
+  puts "aprovado!"
+  else
+    puts "reprovado"
+end
