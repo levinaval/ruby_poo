@@ -5,3 +5,6 @@
 puts "insira o nome do aluno e as notas."
 aluno = gets.chomp
 puts "notas."
+nota1 = gets.chomp.to_f
+nota2 = gets.chomp.to_f
+nota3 = gets.chomp.to_f
