@@ -8,3 +8,6 @@ puts "notas."
 nota1 = gets.chomp.to_f
 nota2 = gets.chomp.to_f
 nota3 = gets.chomp.to_f
+soma = ( (nota1 * 3) + (nota2 * 4) + (nota3 * 5) ) / 12
+puts "aluno: #{aluno}"
+puts "media ponderada = #{soma}"
